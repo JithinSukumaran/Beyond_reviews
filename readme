@@ -1,0 +1,10 @@
+Project Stages:
+1. Data Aquisition
+2. Analysis of Data
+3. Deployment
+
+# 1. Data Aquisition
+For data acquisition I will be making a scrapy spider to which when given the link of reviews page of the flipkart product will scrape all the reviews and store is some database.
+
+
+# 2. Analysis of Data
