@@ -8,3 +8,10 @@ For data acquisition I will be making a scrapy spider to which when given the li
 
 
 # 2. Analysis of Data
+- Give the user the average of the stars from the data
+- We can show which cities the product was ordered the most.
+- We can show the top review by likes.
+- We can show the top 5 comment by frequency of the comments.
+- We can search the reviews for money related talk and show what deals other customers got.
+- Analyze the data for sentiment on the reviews related to the topic user is interested in.
+
