@@ -15,3 +15,6 @@ For data acquisition I will be making a scrapy spider to which when given the li
 - We can search the reviews for money related talk and show what deals other customers got.
 - Analyze the data for sentiment on the reviews related to the topic user is interested in.
 
+
+# 3. Deploy the project on cloud
+- The plan is to deploy the project on heroku
