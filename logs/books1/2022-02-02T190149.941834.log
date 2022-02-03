@@ -1,0 +1,154 @@
+2022-02-02 19:01:50 [scrapy] DEBUG: Crawled (404) <GET http://books.toscrape.com/robots.txt> (referer: None)
+2022-02-02 19:01:51 [scrapy] DEBUG: Crawled (200) <GET http://books.toscrape.com/> (referer: None)
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'A Light in the Attic', 'Price': '£51.77', 'Star Rating': 'Three'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Tipping the Velvet', 'Price': '£53.74', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Soumission', 'Price': '£50.10', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Sharp Objects', 'Price': '£47.82', 'Star Rating': 'Four'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Sapiens: A Brief History of Humankind', 'Price': '£54.23', 'Star Rating': 'Five'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'The Requiem Red', 'Price': '£22.65', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'The Dirty Little Secrets of Getting Your Dream Job', 'Price': '£33.34', 'Star Rating': 'Four'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull', 'Price': '£17.93', 'Star Rating': 'Three'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics', 'Price': '£22.60', 'Star Rating': 'Four'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'The Black Maria', 'Price': '£52.15', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Starving Hearts (Triangular Trade Trilogy, #1)', 'Price': '£13.99', 'Star Rating': 'Two'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': "Shakespeare's Sonnets", 'Price': '£20.66', 'Star Rating': 'Four'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Set Me Free', 'Price': '£17.46', 'Star Rating': 'Five'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)", 'Price': '£52.29', 'Star Rating': 'Five'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Rip it Up and Start Again', 'Price': '£35.02', 'Star Rating': 'Five'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991', 'Price': '£57.25', 'Star Rating': 'Three'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Olio', 'Price': '£23.88', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Mesaerion: The Best Science Fiction Stories 1800-1849', 'Price': '£37.59', 'Star Rating': 'One'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': 'Libertarianism for Beginners', 'Price': '£51.33', 'Star Rating': 'Two'}
+2022-02-02 19:01:51 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/>
+{'Name': "It's Only the Himalayas", 'Price': '£45.17', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Crawled (200) <GET http://books.toscrape.com/catalogue/page-2.html> (referer: http://books.toscrape.com/)
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'In Her Wake', 'Price': '£12.84', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'How Music Works', 'Price': '£37.32', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More', 'Price': '£30.52', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Chase Me (Paris Nights #2)', 'Price': '£25.27', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Black Dust', 'Price': '£34.53', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Birdsong: A Story in Pictures', 'Price': '£54.64', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana", 'Price': '£22.50', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Aladdin and His Wonderful Lamp', 'Price': '£53.13', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Worlds Elsewhere: Journeys Around Shakespeare’s Globe', 'Price': '£40.30', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Wall and Piece', 'Price': '£44.18', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'The Four Agreements: A Practical Guide to Personal Freedom', 'Price': '£17.66', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'The Five Love Languages: How to Express Heartfelt Commitment to Your Mate', 'Price': '£31.05', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'The Elephant Tree', 'Price': '£23.82', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'The Bear and the Piano', 'Price': '£36.89', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': "Sophie's World", 'Price': '£15.94', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Penny Maybe', 'Price': '£33.29', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Maude (1883-1993):She Grew Up with the country', 'Price': '£18.02', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'In a Dark, Dark Wood', 'Price': '£19.63', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': 'Behind Closed Doors', 'Price': '£52.22', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-2.html>
+{'Name': "You can't bury them all: Poems", 'Price': '£33.63', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Crawled (200) <GET http://books.toscrape.com/catalogue/page-3.html> (referer: http://books.toscrape.com/catalogue/page-2.html)
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Slow States of Collapse: Poems', 'Price': '£57.31', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Reasons to Stay Alive', 'Price': '£26.41', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Private Paris (Private #10)', 'Price': '£47.61', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': '#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.', 'Price': '£23.11', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Without Borders (Wanderlove #1)', 'Price': '£45.07', 'Star Rating': 'Two'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'When We Collided', 'Price': '£31.77', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'We Love You, Charlie Freeman', 'Price': '£50.27', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Untitled Collection: Sabbath Poems 2014', 'Price': '£14.27', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness', 'Price': '£44.18', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Unicorn Tracks', 'Price': '£18.78', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink', 'Price': '£25.52', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)', 'Price': '£16.28', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity', 'Price': '£31.12', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'This One Summer', 'Price': '£19.49', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'Thirst', 'Price': '£17.27', 'Star Rating': 'Five'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'The Torch Is Passed: A Harding Family Story', 'Price': '£19.09', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'The Secret of Dreadwillow Carse', 'Price': '£56.13', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!', 'Price': '£56.41', 'Star Rating': 'One'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'The Past Never Ends', 'Price': '£56.50', 'Star Rating': 'Four'}
+2022-02-02 19:01:52 [scrapy] DEBUG: Scraped from <200 http://books.toscrape.com/catalogue/page-3.html>
+{'Name': 'The Natural History of Us (The Fine Art of Pretending #2)', 'Price': '£45.22', 'Star Rating': 'Three'}
+2022-02-02 19:01:52 [scrapy] INFO: Closing spider (finished)
+2022-02-02 19:01:52 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1019,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 17953,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 2.74445,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 2, 2, 13, 31, 52, 718223),
+ 'httpcompression/response_bytes': 153545,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 64,
+ 'log_count/INFO': 7,
+ 'memusage/max': 59400192,
+ 'memusage/startup': 59400192,
+ 'request_depth_max': 2,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2022, 2, 2, 13, 31, 49, 973773)}
+2022-02-02 19:01:52 [scrapy] INFO: Spider closed (finished)
