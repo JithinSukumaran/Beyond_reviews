@@ -23,7 +23,7 @@ class Books(db.Model):  # here we are creating a table in the database
 
 @app.route('/',methods=['POST','GET'])  # this represents a page
 def hello_world():
-    subprocess.run(['scrapyrt'])
+    # subprocess.run(['scrapyrt'])
     if request.method == 'POST':
         return 'Hello'
     else:
@@ -31,21 +31,32 @@ def hello_world():
         'spider_name':'books1',
         'start_requests':True
         }
-        response = requests.get('http://localhost:9080/crawl.json',params)
-        data = json.loads(response.text)
-        count = 0
-        for item in data['items']:
-            count+=1
-            item_name = item['Name']
-            item_price =  item['Price']
-            item_rating = item['Star Rating']
-            new_item = Books(name=item_name,price=item_price,star_rating=item_rating)
-            try:
-                db.session.add(new_item)
-                db.session.commit()
-            except:
-                return 'There was some error adding the item to the database'
-        return f'All items were successfully added to the database, for loop ran for {count} times'
+
+
+        spider_name = "books1"
+        subprocess.check_output(['scrapy', 'crawl', spider_name, "-o", "output.json"])
+        with open("output.json") as items_file:
+            return items_file.read()
+
+
+        # response = requests.get('http://localhost:9080/crawl.json',params)
+        # data = json.loads(response.text)
+        # count = 0
+        # for item in data['items']:
+        #     count+=1
+        #     item_name = item['Name']
+        #     item_price =  item['Price']
+        #     item_rating = item['Star Rating']
+        #     new_item = Books(name=item_name,price=item_price,star_rating=item_rating)
+        #     try:
+        #         db.session.add(new_item)
+        #         db.session.commit()
+        #     except:
+        #         return 'There was some error adding the item to the database'
+        # return f'All items were successfully added to the database, for loop ran for {count} times'
+
+
+
 
     # params = {
     # 'spider_name':'books1',
