@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 from flask_sqlalchemy import SQLAlchemy
+import subprocess
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -22,7 +23,7 @@ class Books(db.Model):  # here we are creating a table in the database
 
 @app.route('/',methods=['POST','GET'])  # this represents a page
 def hello_world():
-
+    subprocess.run(['scrapyrt'])
     if request.method == 'POST':
         return 'Hello'
     else:
