@@ -18,3 +18,7 @@ For data acquisition I will be making a scrapy spider to which when given the li
 
 # 3. Deploy the project on cloud
 - The plan is to deploy the project on heroku
+
+
+# Additional features 
+- Implement a download option for the scraped data.
