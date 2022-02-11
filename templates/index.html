@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    {% for table in tables%}
-      {{table|safe}}
-    {%endfor%}
-  </body>
-</html>
+{%extends 'base.html'%}
+
+{%block head%}
+{%endblock%}
+
+{%block body%}
+{% for table in tables%}
+  {{table|safe}}
+{%endfor%}
+
+{%endblock%}

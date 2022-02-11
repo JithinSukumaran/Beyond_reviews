@@ -5,6 +5,14 @@ import pandas as pd
 from datetime import datetime
 from flask_sqlalchemy import SQLAlchemy
 import subprocess
+import jsonpickle
+import io
+import base64
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas 
+
+global url
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -21,23 +29,29 @@ class Books(db.Model):  # here we are creating a table in the database
     def __repr__(self):  # this is what it will print when called
         return '<Task %r>' % self.id
 
-@app.route('/',methods=['POST','GET'])  # this represents a page
+@app.route('/scrape',methods=['POST','GET'])  # this represents a page
 def hello_world():
-    # subprocess.run(['scrapyrt'])
-    if request.method == 'POST':
+    if request.method == 'GET':
         return 'Hello'
     else:
+        global url
+        url = request.form['content']
+
         params = {
         'spider_name':'books1',
         'start_requests':True
         }
 
-
         spider_name = "books1"
-        subprocess.check_output(['scrapy', 'crawl', spider_name, "-o", "output.json"])
+        subprocess.check_output(['scrapy', 'crawl', spider_name, "-O", "output.json"])
+        # subprocess.check_output([url])
+        # subprocess.
         with open("output.json") as items_file:
-            return items_file.read()
+            items = items_file.read()
+            e = jsonpickle.decode(items)
 
+        count = 0
+        return f'All items were successfully added to the database, for loop ran for {url} times'
 
         # response = requests.get('http://localhost:9080/crawl.json',params)
         # data = json.loads(response.text)
@@ -70,9 +84,9 @@ def hello_world():
     # # print(df)
     # return render_template('index.html',tables = [df.to_html(classes='data',index=False)],titles=df.columns.values)
 
-# @app.route('/about')
-# def about():
-# 	return 'This is the about page'
+@app.route('/')
+def about():
+	return render_template('start.html')
 
 if __name__=='__main__':  # don't use this while deployment
 	app.run(debug=True)
