@@ -23,3 +23,7 @@ For data acquisition I will be making a scrapy spider to which when given the li
 # Additional features 
 - Implement a download option for the scraped data.
 - Use char.js to make visualizations stand out.
+
+
+# More Ideas
+- Provied provision to analyse and compare 2 items side by side.
