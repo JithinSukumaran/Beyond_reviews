@@ -17,7 +17,7 @@ For data acquisition I will be making a scrapy spider to which when given the li
 
 
 # 3. Deploy the project on cloud
-- The plan is to deploy the project on heroku
+- The plan is to deploy the project on heroku.
 
 
 # Additional features 
@@ -27,3 +27,4 @@ For data acquisition I will be making a scrapy spider to which when given the li
 
 # More Ideas
 - Provied provision to analyse and compare 2 items side by side.
+
